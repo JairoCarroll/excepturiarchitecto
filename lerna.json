@@ -1,0 +1,23 @@
+{
+	"packages": [
+		"packages/*"
+	],
+	"useWorkspaces": true,
+	"version": "6.1.3",
+	"command": {
+		"run": {
+			"stream": true
+		},
+		"version": {
+			"allowBranch": [
+				"master",
+				"release-*"
+			],
+			"ignoreChanges": [
+				"*.md"
+			],
+			"amend": true,
+			"push": false
+		}
+	}
+}
